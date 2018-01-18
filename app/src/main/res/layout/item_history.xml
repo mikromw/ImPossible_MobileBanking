@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="@dimen/dp8"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="144dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="@dimen/dp4"
+            android:layout_marginBottom="@dimen/dp4"
+            android:layout_marginRight="@dimen/dp16"
+            android:textColor="@color/Black"
+            android:id="@+id/item_tglwkt"
+            android:textStyle="bold"
+            tools:text="Waktu"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="@dimen/dp4"
+            android:textColor="@color/Black"
+            android:id="@+id/item_kode"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/item_tglwkt"
+            tools:text="Kode"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="@dimen/dp4"
+            android:textColor="@color/Black"
+            android:id="@+id/item_norekasal"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/item_tglwkt"
+            android:layout_below="@id/item_kode"
+            tools:text="Pengirim"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="@dimen/dp4"
+            android:textColor="@color/Black"
+            android:id="@+id/item_norektujuan"
+            android:layout_toRightOf="@id/item_tglwkt"
+            android:layout_below="@id/item_norekasal"
+            android:textStyle="bold"
+            tools:text="Penerima"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginBottom="@dimen/dp4"
+            android:textColor="@color/Black"
+            android:id="@+id/item_jlhdana"
+            android:layout_toRightOf="@id/item_tglwkt"
+            android:layout_below="@id/item_norektujuan"
+            android:textStyle="bold"
+            tools:text="Jumlah Transfer"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

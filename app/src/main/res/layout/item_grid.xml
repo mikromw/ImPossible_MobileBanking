@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="@dimen/dp4"
+    android:layout_marginLeft="@dimen/dp4"
+    android:layout_marginRight="@dimen/dp4"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/item_paketpulsa"
+        android:padding="@dimen/dp8"
+        android:textColor="@color/White"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorTextHint"
+        tools:text="Paket Pulsa"/>
+
+</android.support.v7.widget.CardView>

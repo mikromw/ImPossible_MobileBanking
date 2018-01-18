@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="welcome">#454050</color>
+    <color name="border">#ccc</color>
+    <color name="colorToolbar">#002866</color>
+    <color name="colorunable">#e5efff</color>
+    <color name="colorPrimary">#51d8c7</color>
+    <color name="colorPrimaryDark">#51d8c7</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorBackground">#413e4f</color>
+    <color name="Black">#000</color>
+    <color name="White">#FFF</color>
+    <color name="colorText">#FFFFFF</color>
+    <color name="colorTextHint">#002866</color>
+</resources>

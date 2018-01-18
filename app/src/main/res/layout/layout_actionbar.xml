@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_marginTop="@dimen/dp4"
+        android:id="@+id/actionbar.title"
+        android:src="@drawable/titleapp"
+        android:layout_width="110dp"
+        android:layout_height="28dp" />
+    <ImageView
+        android:layout_marginTop="@dimen/dp4"
+        android:id="@+id/actionbar.setting"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_account_box_24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp" />
+</FrameLayout>

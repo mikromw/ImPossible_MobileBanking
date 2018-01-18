@@ -1,0 +1,63 @@
+<resources>
+    <string name="title_app">Mobile Banking</string>
+    <string name="app_name">Login</string>
+    <string name="app_name1">Home</string>
+    <string name="app_name2">Transfer</string>
+    <string name="app_name3">Pulsa</string>
+    <string name="app_name4">No HP</string>
+    <string name="app_name5">Info User</string>
+    <string name="app_name6">Profile User</string>
+    <string name="app_name7">Security</string>
+    <string name="app_name8">Transaction History</string>
+
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">PIN</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_password">Enter PIN</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="success_message_transfer">Transfer Successful</string>
+    <string name="success_message_pin">PIN Change Successful</string>
+    <string name="success_message_editprofile">Edit Profile Successful</string>
+    <string name="text_home">Back to Home</string>
+    <string name="text_pulsa">Kembali ke Paket Pulsa</string>
+    <string name="error_username_not_exists">Username is not Exists</string>
+    <string name="error_norek_not_exists">Account Number is not Exists</string>
+    <string name="error_valid_username_pin">Wrong Username or PIN</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_hp">No Hp</string>
+
+    <string name="error_message_nohp">Enter No Hp</string>
+    <string name="error_message_newpin_oldpin">New PIN must different from Old PIN</string>
+    <string name="error_message_oldpinincorrect">Old PIN was incorrect</string>
+    <string name="error_message_passwordkosong">Enter PIN</string>
+    <string name="error_message_oldpasswordkosong">Enter Old PIN</string>
+    <string name="error_message_newpasswordkosong">Enter New PIN</string>
+    <string name="error_message_digitpin">PIN only 6 digits</string>
+    <string name="hint_norek">Account Number</string>
+    <string name="error_message_username">Enter Username</string>
+    <string name="error_message_norek">Enter Nomor Rekening</string>
+    <string name="error_valid_message_norektujuan">Enter No Rekening Tujuan yang valid</string>
+    <string name="error_valid_message_othernorektujuan">Dilarang menginput No Rek Sendiri</string>
+    <string name="error_message_norektujuan">Enter No Rekening Tujuan</string>
+    <string name="error_message_jlhdana">Enter Jumlah Dana</string>
+    <string name="error_message_jlhdanamin">Enter Jumlah Dana Minimal 50000</string>
+    <string name="error_message_jlhdanaminkelipatan">Enter Jumlah Dana Minimal Berkelipatan 50000</string>
+    <string name="error_message_saldokurang">Saldo Anda kurang untuk melakukan transfer</string>
+    <string name="error_message_jlhdanamax">Jumlah Dana Transfer hanya 100juta per hari</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hint_norektujuan">No Rekening Tujuan</string>
+    <string name="hint_nohptujuan">No Hp Tujuan</string>
+    <string name="hint_jlhdana">Jumlah Dana</string>
+    <string name="hint_jlhpulsa">Jumlah Pulsa</string>
+    <string name="hint_oldpin">Old PIN</string>
+    <string name="hint_newpin">New PIN</string>
+    <string name="text_transfer">Transfer</string>
+    <string name="text_submit">Submit</string>
+    <string name="text_save">Save</string>
+</resources>
